@@ -1,7 +1,7 @@
 
 Particle Filter Localization 粒子滤波定位， 蒙特卡罗定位， 《概率机器人》第8章实现。
 
-详细请参考：
+详细请参考：https://zhuanlan.zhihu.com/p/43523632
 
 数据集下载地址：https://pan.baidu.com/s/1j_SSEtaq7D0XwaED0Jg4Ew
 
