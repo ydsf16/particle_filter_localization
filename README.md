@@ -11,6 +11,6 @@ STEP1. 下载到自己的 ROS 工作空间：catkin_ws/src
 
 STEP2. 编译：catkin_make
 
-STEP3. 运行launch: roslaunch particle_filter_localization pf_localization.launch
+STEP3. 运行 launch: roslaunch particle_filter_localization pf_localization.launch
 
-STEP4. 播放rosbag: rosbag play laser1_2018-07-14-17-31-41.bag -r 2
+STEP4. 播放 rosbag: rosbag play laser1_2018-07-14-17-31-41.bag -r 2
