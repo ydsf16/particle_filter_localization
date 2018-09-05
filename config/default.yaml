@@ -1,0 +1,48 @@
+
+map:
+  sizex: 1000
+  sizey: 1000
+  initx: 386
+  inity: 386
+  cell_size: 0.05
+  frame_id: odom
+
+sensor_model:
+  P_occ: 0.6
+  P_free: 0.4
+  P_prior: 0.5
+  
+robot:
+  kl: 2.31249273072714e-06
+  kr: 2.30439760302837e-06
+  b: 0.719561485930414
+
+robot_laser:
+  x: 0.26
+  y: 0.0
+  theta: 0.0
+
+motion_model:
+  alpha1: 0.15
+  alpha2: 0.15
+  alpha3: 0.15
+  alpha4: 0.15
+
+measurement_model:
+  sigma: 0.2
+  rand: 0.01
+
+particle_filter:
+  n_particles: 1000
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<launch>
+
+  <node pkg="particle_filter_localization" type="odometry" name="odometry" output="screen" clear_params="true">
+						<rosparam file="$(find particle_filter_localization)/config/default.yaml" command="load" />
+  </node>
+
+  <node pkg="particle_filter_localization" type="pf_localization_node" name="pf_localization_node" output="screen" clear_params="true">
+						<rosparam file="$(find particle_filter_localization)/config/default.yaml" command="load" />
+      <param name="map_dir" value="$(find particle_filter_localization)/map/map.png" />
+  </node>
+  
+	 <node pkg="rviz" type="rviz" name="rviz" output="screen" 
+   args="-d $(find particle_filter_localization)/rviz/default.rviz" required="true">
+   </node>
+
+</launch>
